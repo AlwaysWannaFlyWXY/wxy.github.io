@@ -1,0 +1,85 @@
+*{
+	font-family: fantasy;
+	background-color: black;
+	color: white;
+}
+
+.text-white{
+	font-family: fantasy;
+	font-weight: bold;
+}
+.navbar .navbar-brand{
+	font-size: 30px;
+	font-weight: 800px;
+	text-transform: uppercase;
+}
+.navbar .nav-link{
+	text-transform: uppercase;
+}
+.navbar .nav-item{
+	font-size: 15px;
+}
+.navbar .nav-link:hover{
+	background-color: light;
+}
+.dropdown-item{
+	color: white;
+}
+.text{
+	text-align: right;
+}
+.carousel-inner img{
+	height: 500px;
+}
+#gallery img{
+	height: 200px;
+}
+.container-fluid{
+	position: relative;
+}
+#bottom-right{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+#bottom-left{
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+	text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+#row1 #bottom-left{
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+	text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+#row1 #bottom-right{
+	position: absolute;
+	bottom: 20px;
+	right:20px;
+	text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.row:hover{
+	background-color: black;
+}
+.carousel-control-prev-icon .carousel-control-next-icon{
+	background-color:white;
+}
